@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: PTSans;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+.polygon {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+.site-navigation {
+  font-family: PTSans;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+  list-style: none;
+}
+h1,
+h2 {
+  font-size: 21px;
+}
+h2 {
+  line-height: 21px;
+}
+.reason {
+  font-family: PTSans;
+  color: #000000;
+  font-size: 21px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 700;
+  line-height: 26px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: center;
+}
+.five {
+  font-family: PTSans;
+  color: #333333;
+  font-size: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 400;
+  line-height: 26px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: center;
+}
+.catalog-list {
+  font-family: PTSans;
+  list-style: none;
+}
+.interest {
+  font-family: PTSans;
+  color: #000000;
+  font-size: 30px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 700;
+  line-height: 36px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: center;
+}
+.footer-contacts {
+  text-align: center;
+}
+.main-footer ul {
+  list-style: none;
+}
