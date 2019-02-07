@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: PTSans;
+  font-family: PTSans, Arial, sans-serif;
   color: #000000;
   font-size: 14px;
   font-weight: 700;
@@ -15,7 +15,7 @@ a {
   text-decoration: none;
 }
 .site-navigation {
-  font-family: PTSans;
+  font-family: PTSans, Arial, sans-serif;
   color: #000000;
   font-size: 14px;
   font-weight: 700;
@@ -23,45 +23,122 @@ a {
   text-align: center;
   list-style: none;
 }
-h1,
-h2 {
-  font-size: 21px;
-}
-h2 {
-  line-height: 21px;
-}
-.reason {
-  font-family: PTSans;
+.site-navigation a:hover {
+  font-family: PTSans, Arial, sans-serif;
   color: #000000;
-  font-size: 21px;
-  /* Приближение из-за подстановки шрифтов */
+  font-size: 14px;
   font-weight: 700;
   line-height: 26px;
-  /* Приближение из-за подстановки шрифтов */
+  text-align: center;
+  list-style: none;
+  color: rgb(129, 179, 210);
+}
+.site-navigation a:active {
+  font-family: PTSans, Arial, sans-serif;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+  list-style: none;
+  color: rgb(102, 102, 102);
+}
+a h1,
+h2 {
+  font-size: 21px;
+}
+a h2 {
+  line-height: 21px;
+}
+.catalog h3 {
+  width: 210px;
+  height: 16px;
+  font-family: PTSans, Arial, sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: left;
+}
+.catalog h3 a:hover {
+  width: 210px;
+  height: 16px;
+  font-family: PTSans, Arial, sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgb(129, 179, 210);
+}
+
+.catalog h3 a:active {
+  width: 210px;
+  height: 16px;
+  font-family: PTSans, Arial, sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgb(102, 102, 102);
+}
+.catalog-item-type {
+  width: 77px;
+  height: 12px;
+  font-family: PTSans, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+}
+.catalog-item-price {
+  width: 66px;
+  height: 11px;
+  font-family: PTSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+}
+.reason {
+  font-family: PTSans, Arial, sans-serif;
+  color: #000000;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 26px;
   text-align: center;
 }
 .five {
-  font-family: PTSans;
+  font-family: PTSans, Arial, sans-serif;
   color: #333333;
   font-size: 14px;
-  /* Приближение из-за подстановки шрифтов */
   font-weight: 400;
   line-height: 26px;
-  /* Приближение из-за подстановки шрифтов */
   text-align: center;
 }
 .catalog-list {
-  font-family: PTSans;
+  font-family: PTSans, Arial, sans-serif;
   list-style: none;
 }
 .interest {
-  font-family: PTSans;
+  font-family: PTSans, Arial, sans-serif;
   color: #000000;
   font-size: 30px;
-  /* Приближение из-за подстановки шрифтов */
   font-weight: 700;
   line-height: 36px;
-  /* Приближение из-за подстановки шрифтов */
   text-align: center;
 }
 .footer-contacts {
