@@ -13,9 +13,9 @@ body {
 }
 a {
   text-decoration: none;
+  color: black;
 }
 .site-navigation {
-  font-family: PTSans, Arial, sans-serif;
   color: #000000;
   font-size: 14px;
   font-weight: 700;
@@ -24,7 +24,6 @@ a {
   list-style: none;
 }
 .site-navigation a:hover {
-  font-family: PTSans, Arial, sans-serif;
   color: #000000;
   font-size: 14px;
   font-weight: 700;
@@ -34,7 +33,6 @@ a {
   color: rgb(129, 179, 210);
 }
 .site-navigation a:active {
-  font-family: PTSans, Arial, sans-serif;
   color: #000000;
   font-size: 14px;
   font-weight: 700;
@@ -50,10 +48,9 @@ h2 {
 a h2 {
   line-height: 21px;
 }
-.catalog h3 {
+.caption {
   width: 210px;
   height: 16px;
-  font-family: PTSans, Arial, sans-serif;
   font-size: 21px;
   font-weight: bold;
   font-style: normal;
@@ -62,10 +59,9 @@ a h2 {
   letter-spacing: normal;
   text-align: left;
 }
-.catalog h3 a:hover {
+.caption a:hover {
   width: 210px;
   height: 16px;
-  font-family: PTSans, Arial, sans-serif;
   font-size: 21px;
   font-weight: bold;
   font-style: normal;
@@ -75,11 +71,9 @@ a h2 {
   text-align: left;
   color: rgb(129, 179, 210);
 }
-
-.catalog h3 a:active {
+.caption a:active {
   width: 210px;
   height: 16px;
-  font-family: PTSans, Arial, sans-serif;
   font-size: 21px;
   font-weight: bold;
   font-style: normal;
@@ -92,7 +86,6 @@ a h2 {
 .catalog-item-type {
   width: 77px;
   height: 12px;
-  font-family: PTSans, Arial, sans-serif;
   font-size: 14px;
   font-weight: normal;
   font-style: normal;
@@ -104,7 +97,6 @@ a h2 {
 .catalog-item-price {
   width: 66px;
   height: 11px;
-  font-family: PTSans;
   font-size: 14px;
   font-weight: normal;
   font-style: normal;
@@ -114,7 +106,6 @@ a h2 {
   text-align: left;
 }
 .reason {
-  font-family: PTSans, Arial, sans-serif;
   color: #000000;
   font-size: 21px;
   font-weight: 700;
@@ -122,7 +113,6 @@ a h2 {
   text-align: center;
 }
 .five {
-  font-family: PTSans, Arial, sans-serif;
   color: #333333;
   font-size: 14px;
   font-weight: 400;
@@ -130,15 +120,23 @@ a h2 {
   text-align: center;
 }
 .catalog-list {
-  font-family: PTSans, Arial, sans-serif;
   list-style: none;
 }
 .interest {
-  font-family: PTSans, Arial, sans-serif;
   color: #000000;
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
+  text-align: center;
+}
+.best {
+  
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
   text-align: center;
 }
 .footer-contacts {
