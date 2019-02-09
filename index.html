@@ -12,75 +12,97 @@
 <body>
   <header class="main-header">
     <nav class="main-navigation">
-      <a class="main-header-logo">
-        <img src="img/index-logo.svg" width="368" height="153" alt="Герб города Седона">
-      </a>
+
       <ul class="site-navigation">
-        <li>
+        <li class="site-navigation-item">
           <a href="info.html">Информация</a>
         </li>
-        <li>
+        <li class="site-navigation-item">
           <a href="fotos.html">Фото и видео</a>
+        </li>
+        <li class="site-navigation-item">
+          <a class="main-header-logo">
+            <img src="img/index-logo.svg" width="368" height="153" alt="Герб города Седона">
+          </a>
         </li>
         <li>
           <a href="map.html">Карта штата</a>
         </li>
-        <li>
+        <li class="site-navigation-item">
           <a href="hotels.html">Гостиницы</a>
         </li>
       </ul>
     </nav>
   </header>
   <main class="container">
-
-    <h1 class="visually-hidden">Седона</h1>
-    <a class="sedona-present">
-      <img src="img/welcome.png" width="1200" height="800" alt="WELCOME">
-    </a>
-    <a class="polygon">
-      <img src="img/polygon.svg" width="1201" height="59" alt="polygon">
-    </a>
+    <div class="two">
+      <h1 class="visually-hidden">Седона</h1>
+      <a class="sedona-present">
+        <img src="img/welcome.png" width="1200" height="800" alt="WELCOME">
+      </a>
+      <a class="polygon">
+        <img src="img/polygon.svg" width="1201" height="59" alt="polygon">
+      </a>
+    </div>
     <section class="paragraph">
       <div class="reason">
         <p>Седона - небольшой городок в Аризоне, заслуживающий большего!</p>
       </div>
-      <div class="five">    
+      <div class="five">
         <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
-        </div>
+      </div>
     </section>
     <div class="interest">
-    <p>Заинтересовались?</p>
+      <p>Заинтересовались?</p>
     </div>
     <div class="best">
-    <p>Укажите предполагаемые даты поездки, и мы покажем Вам лучшие предложения гостиниц в Седоне</p>
+      <p>Укажите предполагаемые даты поездки, и мы покажем Вам лучшие предложения гостиниц в Седоне</p>
     </div>
-    <p>Поиск гостиницы в Седоне</p>
-    <p>Дата заезда</p>
-    <p>Дата выезда</p>
-    <p>Взрослые</p>
-    <p>Дети</p>
-    <p>Найти</p>
+    <div class="brown">
+      <p>Поиск гостиницы в Седоне</p>
+    </div>
+    <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
+      <p class="appointment-item">
+        <label for="appointment-date">Дата заезда</label>
+        <input id="appointment-date" type="text" name="date" value="" placeholder="08.02.2019">
+      </p>
+      <p class="appointment-item">
+        <label for="appointment-date">Дата выезда</label>
+        <input id="appointment-date" type="text" name="time" value="" placeholder="10.02.2019">
+      </p>
+      <p class="appointment-item">
+        <label for="appointment-adults">Взрослые</label>
+        <input id="appointment-adults" type="text" name="name" value="" placeholder="2">
+      </p>
+      <p class="appointment-item">
+        <label for="appointment-children">Дети</label>
+        <input id="appointment-children" type="tel" name="phone" value="" placeholder="0">
+      </p>
+      <button class="button-find" type="submit">Найти</button>
+    </form>
   </main>
   <footer class="main-footer">
     <p class="footer-contacts">#VISITSEDONA</p>
     <ul>
-      <li>
+      <li class="footer-social">
         <img src="img/t.svg" width="17" height="15" alt="twitter">
         <a class="social-button" href="#">Twitter</a>
       </li>
-      <li>
+      <li class="footer-social">
         <img src="img/fb-icon.svg" width="12" height="22" alt="facebook">
         <a class="social-button" href="#">Фейсбук</a>
       </li>
-      <li>
+      <li class="footer-social">
         <img src="img/youtube.svg" width="20" height="16" alt="youtube">
         <a class="social-button" href="#">Youtube</a>
       </li>
     </ul>
-    <img src="img/logo-htmlacademy.svg" width="115" height="41" alt="htmlacademy.ru">
-    <a class="footer-copyright" href="https://htmlacademy.ru">
-      <b>WEBSITE BY</b> HTML Academy
-    </a>
+    <div class="copyright">
+      <p>WEBSITE BY</p>
+      <a href="https://htmlacademy.ru">
+        <img src="img/logo-htmlacademy.svg" width="115" height="41" alt="htmlacademy.ru">
+      </a>
+    </div>
   </footer>
 </body>
 

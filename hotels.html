@@ -12,27 +12,30 @@
 <body>
   <header class="main-header">
     <nav class="main-navigation">
-      <a class="main-header-logo">
-        <img src="img/index-logo.svg" width="368" height="153" alt="Герб города Седона">
-      </a>
+      
       <ul class="site-navigation">
-        <li>
+        <li class="site-navigation-item">
           <a href="info.html">Информация</a>
         </li>
-        <li>
+        <li class="site-navigation-item">
           <a href="fotos.html">Фото и видео</a>
+        </li>
+        <li class="site-navigation-item">
+            <a class="main-header-logo">
+        <img src="img/index-logo.svg" width="368" height="153" alt="Герб города Седона">
+      </a>
         </li>
         <li>
           <a href="map.html">Карта штата</a>
         </li>
-        <li>
+        <li class="site-navigation-item">
           <a href="hotels.html">Гостиницы</a>
         </li>
       </ul>
     </nav>
   </header>
   <main class="container">
-    <h1>Гостиницы Седоны</h1>
+    <h1 class="visually-hidden">Гостиницы Седоны</h1>
     <section class="filters">
       <h2 class="visually-hidden">Фильтр гостиниц</h2>
       <!-- Здесь будет форма -->
@@ -41,21 +44,26 @@
     <section class="catalog">
       <h2 class="visually-hidden">Перечень гостиниц</h2>
       <ul class="catalog-list">
+       
         <li class="catalog-item">
           <div class="catalog-item-image">
             <a href="catalog-item.html">
               <img src="img/layer-21.jpg" width="135" height="90" alt="AMARA RESORT & SPA">
             </a>
           </div>
-          <h3 class="caption">
+          <div class="middle">
+            <h3 class="caption">
         <a href="catalog-amara.html">AMARA RESORT & SPA</a>
         </h3>
-          <span class="catalog-item-type">Гостиница</span>
-          <span class="catalog-item-price">от 4000 руб.</span>
-          <a class="button-item-detailed" href="#">Подробнее</a>
-          <a class="button-item-book" href="#">Забронировать</a>
-          <span class="catalog-item-star">&#9733&#9733&#9733&#9733</span>
-          <span class="catalog-item-rating">Рейтинг:8,5</span>
+            <span class="catalog-item-type">Гостиница</span>
+            <span class="catalog-item-price">от 4000 руб.</span>
+            <a class="button-item-detailed" href="#">Подробнее</a>
+            <a class="button-item-book" href="#">Забронировать</a>
+          </div>
+          <div class="right">
+            <span class="catalog-item-star">&#9733&#9733&#9733&#9733</span>
+            <span class="catalog-item-rating">Рейтинг:8,5</span>
+          </div>
         </li>
         <li class="catalog-item">
           <div class="catalog-item-image">
@@ -63,15 +71,19 @@
               <img src="img/layer-89-copy.jpg" width="135" height="90" alt="DESERT QUAIL INN">
             </a>
           </div>
-          <h3 class="caption">
+          <div class="middle">
+            <h3 class="caption">
         <a href="catalog-quail.html">DESERT QUAIL INN</a>
         </h3>
-          <span class="catalog-item-type">Гостиница</span>
-          <span class="catalog-item-price">от 3000 руб.</span>
-          <a class="button-item-detailed" href="#">Подробнее</a>
-          <a class="button-item-book" href="#">Забронировать</a>
-          <span class="catalog-item-star">&#9733&#9733&#9733</span>
-          <span class="catalog-item-rating">Рейтинг:8,9</span>
+            <span class="catalog-item-type">Гостиница</span>
+            <span class="catalog-item-price">от 3000 руб.</span>
+            <a class="button-item-detailed" href="#">Подробнее</a>
+            <a class="button-item-book" href="#">Забронировать</a>
+          </div>
+          <div class="right">
+            <span class="catalog-item-star">&#9733&#9733&#9733</span>
+            <span class="catalog-item-rating">Рейтинг:8,9</span>
+          </div>
         </li>
         <li class="catalog-item">
           <div class="catalog-item-image">
@@ -79,15 +91,19 @@
               <img src="img/layer-22.jpg" width="135" height="90" alt="VILLAS AT POCO DIABLO">
             </a>
           </div>
-          <h3 class="caption">
+          <div class="middle">
+            <h3 class="caption">
         <a href="catalog-quail.html">VILLAS AT POCO DIABLO</a>
         </h3>
-          <span class="catalog-item-type">Гостиница</span>
-          <span class="catalog-item-price">от 2000 руб.</span>
-          <a class="button-item-detailed" href="#">Подробнее</a>
-          <a class="button-item-book" href="#">Забронировать</a>
-          <span class="catalog-item-star">&#9733&#9733</span>
-          <span class="catalog-item-rating">Рейтинг:9,2</span>
+            <span class="catalog-item-type">Гостиница</span>
+            <span class="catalog-item-price">от 2000 руб.</span>
+            <a class="button-item-detailed" href="#">Подробнее</a>
+            <a class="button-item-book" href="#">Забронировать</a>
+          </div>
+          <div class="right">
+            <span class="catalog-item-star">&#9733&#9733</span>
+            <span class="catalog-item-rating">Рейтинг:9,2</span>
+          </div>
         </li>
       </ul>
     </section>
@@ -95,23 +111,25 @@
   <footer class="main-footer">
     <p class="footer-contacts">#VISITSEDONA</p>
     <ul>
-      <li>
+      <li class="footer-social">
         <img src="img/t.svg" width="17" height="15" alt="twitter">
         <a class="social-button" href="#">Twitter</a>
       </li>
-      <li>
+      <li class="footer-social">
         <img src="img/fb-icon.svg" width="12" height="22" alt="facebook">
         <a class="social-button" href="#">Фейсбук</a>
       </li>
-      <li>
+      <li class="footer-social">
         <img src="img/youtube.svg" width="20" height="16" alt="youtube">
         <a class="social-button" href="#">Youtube</a>
       </li>
     </ul>
-    <img src="img/logo-htmlacademy.svg" width="115" height="41" alt="htmlacademy.ru">
-    <a class="footer-copyright" href="https://htmlacademy.ru">
-      <b>WEBSITE BY</b> HTML Academy
-    </a>
+    <div class="copyright">
+      <p>WEBSITE BY</p>
+      <a href="https://htmlacademy.ru">
+        <img src="img/logo-htmlacademy.svg" width="115" height="41" alt="htmlacademy.ru">
+      </a>
+    </div>
   </footer>
 </body>
 
