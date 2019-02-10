@@ -1,0 +1,242 @@
+body {
+  width: 1200px;
+  margin: 0;
+  padding: 0;
+  font-family: PTSans, Arial, sans-serif;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+.polygon {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"],
+visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.site-navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+  list-style: none;
+}
+.site-navigation a:hover {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+  list-style: none;
+  color: rgb(129, 179, 210);
+}
+.site-navigation a:active {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+  list-style: none;
+  color: rgb(102, 102, 102);
+}
+a h1,
+h2 {
+  font-size: 21px;
+}
+a h2 {
+  line-height: 21px;
+}
+/*.two {
+  display: flex;
+  align-items: center;*/
+
+}
+.caption {
+  width: 210px;
+  height: 16px;
+  font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: left;
+}
+.caption a:hover {
+  width: 210px;
+  height: 16px;
+  font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgb(129, 179, 210);
+}
+.caption a:active {
+  width: 210px;
+  height: 16px;
+  font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgb(102, 102, 102);
+}
+.catalog-item {
+  display: flex;
+}
+.catalog-item-type {
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+}
+.catalog-item-price {
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+}
+.paragraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #000000;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 26px;
+  /*    padding-right: 380px;*/
+}
+.reason {
+  width: 440px;
+  text-align: center;
+  padding-left: 380px;
+}
+.five {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+.catalog-list {
+  list-style: none;
+}
+.interest {
+  color: #000000;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+}
+.best {
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: center;
+  padding-left: 383px;
+  padding-right: 375px;
+}
+.brown {
+  font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: center;
+}
+.appointment-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button-find {
+  width: 458px;
+  text-align: center;
+}
+/*.catalog-list {
+  display: flex;
+    flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;*/
+
+}
+.catalog-item-image {
+  width:135px;
+}
+.right {
+  width:135px;
+}
+.middle {
+  width:660 px;
+}
+/*.footer-contacts {
+  text-align:center;}*/
+
+.main-footer {
+  margin-left:112px;
+  margin-right:112px;
+  display:flex;
+  justify-content:space-between;
+}
+.main-footer ul {
+  list-style:none;
+}
+.footer-contacts {
+  font-size:21px;
+  font-weight:bold;
+  font-style:normal;
+  font-stretch:normal;
+  line-height:1.24;
+  letter-spacing:normal;
+  text-align:center;
+}
+.copyright {
+  font-size:14px;
+  font-weight:400;
+  line-height:26px;
+  text-align:center;
+}
+.copyright a:hover {
+  width:115px;
+  height:41px;
+  object-fit:contain;
+  background-color:#81b3d2;
+}
