@@ -105,11 +105,14 @@ input[type="radio"].visually-hidden {
 }
 .sedona {
   position: relative;
-  background-image: url("../img/welcome.png");
+  background-image: url("../img/welcome7.png");
   background-repeat: no-repeat;
   background-position: top center;
   background-color: #ffffff;
   background-size: cover;
+    width: 1200px;
+    max-height: 650px;
+ 
 }
 .header--index {
   min-height: 390px;
