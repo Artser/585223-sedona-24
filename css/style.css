@@ -55,10 +55,12 @@ input[type="radio"].visually-hidden {
 .main-navigation {
   height: 56px;
   position: relative;
+  margin: 0;
   /*  background-color: white;*/
 }
 .main-header {
   background-color: white;
+  margin: 0;
 }
 .main-header-logo {
   position: absolute;
@@ -78,6 +80,7 @@ input[type="radio"].visually-hidden {
   list-style: none;
   margin-left: 65px;
   margin-right: 65px;
+  margin: 0;
 }
 .site-navigation a:hover {
   /*  color: #000000;*/
@@ -103,30 +106,28 @@ input[type="radio"].visually-hidden {
 .container2 {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
-.sedona {
+.header--index {
   position: relative;
-  background-image: url("../img/welcome7.png");
+  background-image: url("../img/welcome.png");
   background-repeat: no-repeat;
   background-position: top center;
   background-color: #ffffff;
   background-size: cover;
-    width: 1200px;
-    max-height: 650px;
- 
-}
-.header--index {
-  min-height: 390px;
-}
-.header--index:before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  right: 0;
   width: 1200px;
-  height: 57px;
-  background-image: url("../img/polygon.png");
-  background-repeat: no-repeat;
-  /*  background-size: 100% 57px;*/
+  max-height: 650px;
+  z-index: -10;
+  top: -30px;
+}
+.header--index::after {
+  content: '';
+  display: block;
+  background-image: url(../img/polygon.svg);
+  background-size: cover;
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+  bottom: 120px;
+  height: 55px;
 }
 .middle {
   width: 87%;
@@ -208,6 +209,7 @@ input[type="radio"].visually-hidden {
   display: flex;
   padding: 30px 75px;
   border-bottom: 1px solid gray;
+  margin: 0;
 }
 .catalog-item-image {
   display: flex;
@@ -260,10 +262,9 @@ input[type="radio"].visually-hidden {
   width: 100%;
   background-color: rgb(255, 255, 255);
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  /*  font-size: 21px;*/
-  /*  font-weight: 700;*/
-  /*  line-height: 26px;*/
-  /*    padding-right: 380px;*/
+  position: relative;
+  z-index: 10;
+  top: -150px;
 }
 .reason {
   margin: 0 auto;
@@ -272,6 +273,7 @@ input[type="radio"].visually-hidden {
   text-align: center;
   background-color: rgb(255, 255, 255);
   /*  width: 500px;*/
+  z-index: 10;
 }
 .reason h2 {
   font-size: 21px;
@@ -288,6 +290,7 @@ input[type="radio"].visually-hidden {
 .catalog-list {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 .interest {
   color: #000000;
@@ -362,7 +365,7 @@ input[type="radio"].visually-hidden {
   text-align: center;
 }
 .main-footer {
-  /*  position: relative;*/
+  position: relative;
   /*  margin-left: 112px;*/
   margin-right: 112px;
   display: flex;
@@ -372,7 +375,7 @@ input[type="radio"].visually-hidden {
   background-color: white;
   width: 100%;
   min-height: 120px;
-/*  bottom: 0;*/
+  /*  bottom: 0;*/
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   align-items: center;
   padding-left: 130px;
@@ -416,6 +419,8 @@ input[type="radio"].visually-hidden {
   background-color: #81b3d2;
 }
 .copyright {
+    display: flex;
+    justify-content: center;
   font-size: 14px;
   font-weight: 400;
   line-height: 26px;
@@ -426,16 +431,17 @@ input[type="radio"].visually-hidden {
 /*    background-image:url(logoname2.svg)*/
 
 .copyright-active:hover {
-  /*  background-image:url('logoname.png');*/
-  content: url('logoname.png');
+  background-image:url('logoname.png');
+/*  content: url('logoname.png');*/
 }
 .search-hotels {
   position: relative;
   text-align: center;
   background-color: rgb(255, 255, 255);
   padding-top: 53px;
-  z-index: 15;
+  z-index: 10;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  top: -152px;
 }
 .search-hotels h3 {
   margin-top: -5px;
@@ -470,7 +476,7 @@ input[type="radio"].visually-hidden {
 }
 .ordering {
   position: absolute;
-  z-index: 0;
+  z-index: 50;
   left: 25.2%;
   right: 25.2%;
   margin: 0 auto;
@@ -659,7 +665,7 @@ input[type="radio"].visually-hidden {
 }
 .map {
   width: 100%;
-  height: 593px;
+  height: 470px;
   text-align: center;
   z-index: 20;
 }
