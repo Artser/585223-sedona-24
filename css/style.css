@@ -338,7 +338,7 @@ input[type="radio"].visually-hidden {
   justify-content: space-between;
   margin: 0;
   padding: 0;
-  list-style: none;*/
+  list-style: none;  */
 
 }
 .right {
@@ -419,8 +419,8 @@ input[type="radio"].visually-hidden {
   background-color: #81b3d2;
 }
 .copyright {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
   font-size: 14px;
   font-weight: 400;
   line-height: 26px;
@@ -431,8 +431,8 @@ input[type="radio"].visually-hidden {
 /*    background-image:url(logoname2.svg)*/
 
 .copyright-active:hover {
-  background-image:url('logoname.png');
-/*  content: url('logoname.png');*/
+  background-image: url('logoname.png');
+  /*  content: url('logoname.png');*/
 }
 .search-hotels {
   position: relative;
