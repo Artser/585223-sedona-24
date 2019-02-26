@@ -126,7 +126,7 @@ input[type="radio"].visually-hidden {
 }
 .header--index {
   position: relative;
-  background-image: url("../img/welcome.png");
+  /*  background-image: url("../img/welcome.png");*/
   background-repeat: no-repeat;
   background-position: top center;
   background-color: #ffffff;
@@ -196,7 +196,8 @@ input[type="radio"].visually-hidden {
 .catalog-item {
   display: flex;
   padding: 30px 75px;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid rgb(229, 229, 229);
+  ;
   margin: 0;
 }
 .catalog-item-image {
@@ -415,7 +416,7 @@ input[type="radio"].visually-hidden {
   padding-top: 53px;
   /*  z-index: 10;*/
   /*  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);*/
-/*  top: -152px;*/
+  /*  top: -152px;*/
 }
 .middle2 {
   display: flex;
@@ -511,9 +512,12 @@ input[type="radio"].visually-hidden {
   list-style: none;
   /*  margin-bottom: 200px;*/
   align-content: center;
-  /*  justify-content: space-between;*/
+  justify-content: space-between;
   margin-top: 45px;
-    padding-bottom: 55px;
+  padding-bottom: 55px;
+  width: 100%;
+  margin-right: 60px;
+  margin-left: 60px;
 }
 .fourth-number {
   font-size: 14px;
@@ -921,13 +925,8 @@ input[type="radio"].visually-hidden {
   width: 30px;
   height: 25px;
   overflow: hidden;
-  /*  border-radius: 0.05em;*/
-  /*  background-color: white;*/
-  background-repeat: no-repeat;
-  /*  background-position: 50% 50%;*/
-  /*  box-shadow: 0 0 0 0.1em #4A90E2;*/
-  /*  font-size: 14px;*/
-  background-image: url(../img/checkbox-off.svg);
+   background-repeat: no-repeat;
+   background-image: url(../img/checkbox-off.svg);
 }
 /* Checked */
 
@@ -970,4 +969,46 @@ input[type="radio"].visually-hidden {
 }
 .sedona-present {
   margin-bottom: -9px;
+}
+.filter-hotels {
+  display: flex;
+  background-color: rgb(254, 254, 254);
+  width: 1200px;
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-top: 30px;
+  border-bottom: 1px solid rgb(229, 229, 229);
+  padding-bottom: 30px;
+}
+.sort {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  /*    width: 87%;*/
+  justify-content: space-between;
+  margin-left: 50px;
+}
+.found {
+  font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: left;
+}
+.sort-item {
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  margin-right: 30px;
+}
+.delta {
+  display: flex;
+  justify-content: flex-end;
 }
