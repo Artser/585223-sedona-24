@@ -260,7 +260,6 @@ input[type="radio"].visually-hidden {
   color: rgb(51, 51, 51);
   text-align: center;
   background-color: rgb(255, 255, 255);
-  
 }
 .reason h2 {
   font-size: 21px;
@@ -340,9 +339,9 @@ input[type="radio"].visually-hidden {
   font-weight: normal;
 }
 .map {
-/*  background-image: url(../img/main-map.jpg);*/
+  /*  background-image: url(../img/main-map.jpg);*/
   margin: 0;
-/*  margin-top: -150px;*/
+  /*  margin-top: -150px;*/
 }
 .footer-contacts {
   text-align: center;
@@ -410,11 +409,11 @@ input[type="radio"].visually-hidden {
   text-align: center;
 }
 .search-hotels {
-/*  position: relative;*/
+  /*  position: relative;*/
   text-align: center;
   background-color: rgb(255, 255, 255);
   padding-top: 53px;
-/*  z-index: 10;*/
+  /*  z-index: 10;*/
   /*  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);*/
   top: -152px;
 }
@@ -482,7 +481,7 @@ input[type="radio"].visually-hidden {
 }
 .fourth {
   display: flex;
-    justify-content: space-around;
+  justify-content: space-around;
 }
 .fourth-text {
   display: flex;
@@ -512,7 +511,7 @@ input[type="radio"].visually-hidden {
   list-style: none;
   /*  margin-bottom: 200px;*/
   align-content: center;
-/*  justify-content: space-between;*/
+  /*  justify-content: space-between;*/
   margin-top: 35px;
 }
 .fourth-number {
@@ -750,9 +749,8 @@ input[type="radio"].visually-hidden {
   width: 100%;
   height: 470px;
   text-align: center;
-/*  z-index: 20;*/
+  /*  z-index: 20;*/
 }
-
 .Layer_1 {
   fill="#231f20"
 }
@@ -969,6 +967,6 @@ input[type="radio"].visually-hidden {
 .left-check {
   margin-left: 30px;
 }
-.sedona-present{
-    margin-bottom: -9px;
+.sedona-present {
+  margin-bottom: -9px;
 }
