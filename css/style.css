@@ -415,7 +415,7 @@ input[type="radio"].visually-hidden {
   padding-top: 53px;
   /*  z-index: 10;*/
   /*  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);*/
-  top: -152px;
+/*  top: -152px;*/
 }
 .middle2 {
   display: flex;
@@ -473,7 +473,7 @@ input[type="radio"].visually-hidden {
   align-items: center;
   align-content: center;
   padding-top: 60px;
-  /*  padding-bottom: 200px;*/
+  padding-bottom: 50px;
 }
 .properties-item {
   max-width: 250px;
@@ -512,7 +512,8 @@ input[type="radio"].visually-hidden {
   /*  margin-bottom: 200px;*/
   align-content: center;
   /*  justify-content: space-between;*/
-  margin-top: 35px;
+  margin-top: 45px;
+    padding-bottom: 55px;
 }
 .fourth-number {
   font-size: 14px;
