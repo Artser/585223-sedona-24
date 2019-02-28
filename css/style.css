@@ -95,6 +95,23 @@ input[type="radio"].visually-hidden {
   list-style: none;
   color: rgb(129, 179, 210)
 }
+.site-navigation-right a:hover {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+  list-style: none;
+  color: rgb(129, 179, 210)
+}
+.site-navigation-right a:active {
+  /*  color: #000000;*/
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+  list-style: none;
+  color: rgb(102, 102, 102);
+}
 .site-navigation-left a:active {
   /*  color: #000000;*/
   font-size: 14px;
@@ -339,10 +356,12 @@ input[type="radio"].visually-hidden {
   font-size: 14px;
   font-weight: normal;
 }
-.map {
-  /*  background-image: url(../img/main-map.jpg);*/
+.map-img {
+  background-image: url(../img/main-map.jpg);
   margin: 0;
   /*  margin-top: -150px;*/
+  max-width: 1200px;
+  height: 593px;
 }
 .footer-contacts {
   text-align: center;
@@ -359,10 +378,10 @@ input[type="radio"].visually-hidden {
   width: 100%;
   min-height: 120px;
   /*  bottom: 0;*/
-  /*  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);*/
   align-items: center;
   padding-left: 130px;
   padding-right: 101px;
+  opacity: 0.9;
 }
 .main-footer ul {
   list-style: none;
@@ -424,7 +443,6 @@ input[type="radio"].visually-hidden {
 }
 .second {
   background-color: rgb(130, 180, 211);
-  margin-top: -152px;
   margin: 0;
   height: 256px;
   color: white;
@@ -466,7 +484,7 @@ input[type="radio"].visually-hidden {
 }
 .properties-list {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   text-align: center;
   list-style: none;
   background-color: white;
@@ -475,11 +493,13 @@ input[type="radio"].visually-hidden {
   align-content: center;
   padding-top: 60px;
   padding-bottom: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 .properties-item {
   max-width: 250px;
-  margin-left: -60px;
 }
+
 .fourth {
   display: flex;
   justify-content: space-around;
@@ -826,10 +846,11 @@ input[type="radio"].visually-hidden {
 .min-price {
   padding-left: 60px;
   padding-top: -10px;
+  padding-bottom: 25px;
 }
 .max-price {
   padding-left: 75px;
-  padding-top: -20px
+  padding-top: -20px padding-bottom: 25px;
 }
 .price-controls input {
   width: 50px;
@@ -925,8 +946,8 @@ input[type="radio"].visually-hidden {
   width: 30px;
   height: 25px;
   overflow: hidden;
-   background-repeat: no-repeat;
-   background-image: url(../img/checkbox-off.svg);
+  background-repeat: no-repeat;
+  background-image: url(../img/checkbox-off.svg);
 }
 /* Checked */
 
@@ -989,6 +1010,17 @@ input[type="radio"].visually-hidden {
   justify-content: space-between;
   margin-left: 50px;
 }
+.sort-item1 {
+  margin-right: 30px;
+}
+.sort-item {
+  border-bottom: 1px dotted rgb(130, 181, 211);
+  
+}
+.sort-item::hover {
+  
+    color: rgb(130, 181, 211);
+}
 .found {
   font-size: 21px;
   font-weight: bold;
@@ -1011,4 +1043,9 @@ input[type="radio"].visually-hidden {
 .delta {
   display: flex;
   justify-content: flex-end;
+  margin: 0 0 0 auto;
+  fill="#cbcbcb";
+}
+.delta1:hover {
+  fill: rgb(129, 179, 210);
 }
