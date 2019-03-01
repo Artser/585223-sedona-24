@@ -456,7 +456,7 @@ input[type="radio"].visually-hidden {
   display: flex;
 }
 .initial-text {
-  font-family: PTSans;
+  font-family: PT Sans;
   color: #ffffff;
   font-size: 14px;
   font-weight: 400;
@@ -880,6 +880,7 @@ input[type="radio"].visually-hidden {
   border-radius: 50%;
   /*  box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);*/
   cursor: pointer;
+  box-sizing: content-box;
 }
 .range-toggle:hover {
   background: #1c4f80;
@@ -1018,8 +1019,12 @@ input[type="radio"].visually-hidden {
   line-height: 1;
   border-bottom: 1px dotted rgb(130, 181, 211);
 }
+.sort-item:hover {
+  border-bottom: none;
+}
 .sort-item2:hover {
   color: rgb(130, 181, 211);
+  border-bottom: none;
 }
 .sort-item2 {
   color: rgb(188, 188, 188);
@@ -1073,7 +1078,6 @@ input[type="radio"].visually-hidden {
 .delta-right {
   fill: rgb(203, 203, 203);
 }
-
 .delta-right:hover {
   fill: rgb(0, 0, 0);
 }
@@ -1083,6 +1087,6 @@ input[type="radio"].visually-hidden {
 .Layer_1 {
   fill: "#cbcbcb";
 }
-.by{
-    margin-right: 5px;
+.by {
+  margin-right: 5px;
 }
