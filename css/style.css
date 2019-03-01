@@ -493,13 +493,12 @@ input[type="radio"].visually-hidden {
   align-content: center;
   padding-top: 60px;
   padding-bottom: 50px;
-    padding-left: 80px;
-    padding-right: 80px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 .properties-item {
   max-width: 250px;
 }
-
 .fourth {
   display: flex;
   justify-content: space-around;
@@ -932,14 +931,14 @@ input[type="radio"].visually-hidden {
   padding-left: 1.2em;
   padding-bottom: 15px;
 }
-.check__input {
+.check-input {
   position: absolute;
   width: 1px;
   height: 1px;
   overflow: hidden;
   clip: rect(0 0 0 0);
 }
-.check__box {
+.check-box {
   position: absolute;
   /*  margin-top: 0.2em;*/
   margin-left: -40px;
@@ -951,7 +950,7 @@ input[type="radio"].visually-hidden {
 }
 /* Checked */
 
-.check__input:checked + .check__box {
+.check-input:checked + .check-box {
   background-image: url(../img/checkbox-on.svg);
   color: white;
 }
@@ -1014,12 +1013,22 @@ input[type="radio"].visually-hidden {
   margin-right: 30px;
 }
 .sort-item {
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
   border-bottom: 1px dotted rgb(130, 181, 211);
-  
 }
-.sort-item::hover {
-  
-    color: rgb(130, 181, 211);
+.sort-item2:hover {
+  color: rgb(130, 181, 211);
+}
+.sort-item2 {
+  color: rgb(188, 188, 188);
+  line-height: 1;
+}
+.sort-item2:active {
+  color: rgb(0, 0, 0);
 }
 .found {
   font-size: 21px;
@@ -1040,15 +1049,42 @@ input[type="radio"].visually-hidden {
   text-align: left;
   margin-right: 30px;
 }
+.sort-item1 {
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
 .delta {
   display: flex;
   justify-content: flex-end;
   margin: 0 0 0 auto;
-  fill="#cbcbcb";
 }
-.delta1:hover {
+.delta-left {
+  margin-right: 5px;
+  fill: rgb(203, 203, 203);
+}
+.delta-left:hover {
+  fill: rgb(0, 0, 0);
+}
+.delta-left:active {
+  fill: rgb(129, 179, 210);
+}
+.delta-right {
+  fill: rgb(203, 203, 203);
+}
+
+.delta-right:hover {
+  fill: rgb(0, 0, 0);
+}
+.delta-right:active {
   fill: rgb(129, 179, 210);
 }
 .Layer_1 {
-  fill="#cbcbcb";  
+  fill: "#cbcbcb";
+}
+.by{
+    margin-right: 5px;
 }

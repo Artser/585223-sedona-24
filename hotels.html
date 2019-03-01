@@ -43,22 +43,22 @@
         <div class="left-check">
           <p class="check-text">Инфраструктура:</p>
           <label class="check option">
-            <input class="check__input" type="checkbox" checked>
-            <span class="check__box">
+            <input class="check-input" type="checkbox" checked>
+            <span class="check-box">
                 <span class="visually-hidden" type="checkbox" checked >Чекбокс</span>
             </span>
             <span class="little">Бассейн</span>
           </label>
           <label class="check option">
-            <input class="check__input" type="checkbox">
-            <span class="check__box">
+            <input class="check-input" type="checkbox">
+            <span class="check-box">
                 <span class="visually-hidden" type="checkbox" >Чекбокс</span>
             </span>
             <span class="little">Парковка</span>
           </label>
           <label class="check option">
-            <input class="check__input" type="checkbox">
-            <span class="check__box">
+            <input class="check-input" type="checkbox">
+            <span class="check-box">
                 <span class="visually-hidden" type="checkbox" >Чекбокс</span>
             </span>
             <span class="little">Wi-fi</span>
@@ -67,22 +67,22 @@
         <div class="second-check">
           <p class="check-text">Тип жилья:</p>
           <label class="check option">
-            <input class="check__input" type="checkbox" checked>
-            <span class="check__box">
+            <input class="check-input" type="checkbox" checked>
+            <span class="check-box">
                 <span class="visually-hidden" type="checkbox" checked >Чекбокс</span>
             </span>
             <span class="little">Гостиница</span>
           </label>
           <label class="check option">
-            <input class="check__input" type="checkbox" checked>
-            <span class="check__box">
+            <input class="check-input" type="checkbox" checked>
+            <span class="check-box">
                 <span class="visually-hidden" type="checkbox" checked >Чекбокс</span>
             </span>
             <span class="little">Мотель</span>
           </label>
           <label class="check option">
-            <input class="check__input" type="checkbox" checked>
-            <span class="check__box">
+            <input class="check-input" type="checkbox" checked>
+            <span class="check-box">
                 <span class="visually-hidden" type="checkbox" checked >Чекбокс</span>
             </span>
             <span class="little">Аппартаменты</span>
@@ -113,20 +113,28 @@
       <span class="found">Найдено: 3</span>
       <ul class="sort">
         <li class="sort-item1">Сортировка</li>
-        <li class="sort-item">по цене</li>
-        <li class="sort-item">по типу</li>
-        <li class="sort-item">по рейтингу</li>
-              </ul>
-              <div class="delta">
+        <li class="sort-item">
+          <a href="#" class="sort-item2">по цене</a>
+        </li>
+        <li class="sort-item">
+          <a href="#" class="sort-item2">по типу</a>
+        </li>
+        <li class="sort-item">
+          <a href="#" class="sort-item2">по рейтингу</a>
+        </li>
+      </ul>
+      <div class="delta">
+        <div class="delta-left">
           <svg version="1.1" id="delta1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="11px" height="10px" viewBox="0 0 11 10" enable-background="new 0 0 11 10" xml:space="preserve">
-<polygon   points="5.5,0 0,10 11,10 " />
+            <polygon points="5.5,0 0,10 11,10 " />
           </svg>
-
-          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="11px" height="10px" viewBox="0 0 11 10" enable-background="new 0 0 11 10" xml:space="preserve">
-            <polyline  points="5.5,10 0,0 11,0 " />
-          </svg>
-
         </div>
+        <div class="delta-right">
+          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="11px" height="10px" viewBox="0 0 11 10" enable-background="new 0 0 11 10" xml:space="preserve">
+            <polyline points="5.5,10 0,0 11,0 " />
+          </svg>
+        </div>
+      </div>
     </section>
     <section class="catalog">
       <h2 class="visually-hidden">Перечень гостиниц</h2>
@@ -151,12 +159,12 @@
             </div>
             <div class="right">
               <div class="catalog-item-star">
-              <img src="img/invalid-name.svg" alt="Рейтинг:8,5">
-              <img src="img/invalid-name.svg" alt="">
-              <img src="img/invalid-name.svg" alt="">
-              <img src="img/invalid-name.svg" alt="">
+                <img src="img/invalid-name.svg" alt="Рейтинг:8,5">
+                <img src="img/invalid-name.svg" alt="">
+                <img src="img/invalid-name.svg" alt="">
+                <img src="img/invalid-name.svg" alt="">
               </div>
-              <p class="catalog-item-rating">Рейтинг:8,5</p>
+              <p class="catalog-item-rating">Рейтинг: 8,5</p>
             </div>
           </section>
         </li>
@@ -180,11 +188,11 @@
             </div>
             <div class="right">
               <div class="catalog-item-star">
-              <img src="img/invalid-name.svg" alt="Рейтинг:8,9">
-              <img src="img/invalid-name.svg" alt="">
-              <img src="img/invalid-name.svg" alt="">
+                <img src="img/invalid-name.svg" alt="Рейтинг:8,9">
+                <img src="img/invalid-name.svg" alt="">
+                <img src="img/invalid-name.svg" alt="">
               </div>
-              <p class="catalog-item-rating">Рейтинг:8,9</p>
+              <p class="catalog-item-rating">Рейтинг: 8,9</p>
             </div>
           </section>
         </li>
@@ -208,10 +216,10 @@
             </div>
             <div class="right">
               <div class="catalog-item-star">
-              <img src="img/invalid-name.svg" alt="Рейтинг:9,2">
-              <img src="img/invalid-name.svg" alt="">
+                <img src="img/invalid-name.svg" alt="Рейтинг:9,2">
+                <img src="img/invalid-name.svg" alt="">
               </div>
-              <p class="catalog-item-rating">Рейтинг:9.2</p>
+              <p class="catalog-item-rating">Рейтинг: 9.2</p>
             </div>
           </section>
         </li>
@@ -238,7 +246,7 @@
       </li>
     </ul>
     <div class="copyright">
-      <p>WEBSITE BY</p>
+      <p class="by">WEBSITE BY</p>
       <a class="copyright-active" href="https://htmlacademy.ru">
         <svg class="developer__logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 115 41" width="115" height="41">
           <title>HTML Academy</title>
