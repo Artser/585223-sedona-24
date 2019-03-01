@@ -359,7 +359,6 @@ input[type="radio"].visually-hidden {
 .map-img {
   background-image: url(../img/main-map.jpg);
   margin: 0;
-  /*  margin-top: -150px;*/
   max-width: 1200px;
   height: 593px;
 }
@@ -368,7 +367,6 @@ input[type="radio"].visually-hidden {
 }
 .main-footer {
   position: relative;
-  /*  margin-left: 112px;*/
   margin-right: 112px;
   display: flex;
   flex-direction: row;
