@@ -953,6 +953,14 @@ input[type="radio"].visually-hidden {
   background-image: url(../img/checkbox-on.svg);
   color: white;
 }
+.check-input:disabled + .check-box {
+  background-image: url(../img/checkbox-off3.svg);
+  background-color: rgb(106, 106, 106);
+}
+.check-input:checked:disabled + .check-box {
+  background-image: url(../img/checkbox-on2.svg);
+  background-color: rgb(106, 106, 106);
+}
 .little {
   font-weight: normal;
   font-style: normal;
@@ -1024,7 +1032,6 @@ input[type="radio"].visually-hidden {
 }
 .sort-item2:hover {
   color: rgb(130, 181, 211);
-  
 }
 .sort-item2 {
   color: rgb(188, 188, 188);
@@ -1032,7 +1039,7 @@ input[type="radio"].visually-hidden {
 }
 .sort-item2:active {
   color: rgb(0, 0, 0);
-   border-bottom: none; 
+  border-bottom: none;
 }
 .found {
   font-size: 21px;
