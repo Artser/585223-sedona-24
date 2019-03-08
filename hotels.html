@@ -5,14 +5,13 @@
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
   <link href="css/normalize.css" rel="stylesheet">
-  <link href="css/style.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
 </head>
 
 <body>
   <header class="main-header">
     <nav class="main-navigation">
-      <!--     <div class=""></div>-->
       <a class="main-header-logo" href="index.html">
         <img src="img/index-logo.svg" width="140" height="71" alt="Герб города Седона">
       </a>
@@ -38,7 +37,6 @@
     <h1 class="visually-hidden">Гостиницы Седоны</h1>
     <section class="hotels-filters">
       <h2 class="visually-hidden">Фильтр гостиниц</h2>
-      <!-- Здесь будет форма -->
       <div class="bigcheck">
         <div class="left-check">
           <p class="check-text">Инфраструктура:</p>
@@ -56,7 +54,7 @@
             </span>
             <span class="little">Парковка</span>
           </label>
-          <label class="check option">
+          <label class="check option wifi">
             <input class="check-input" type="checkbox">
             <span class="check-box">
                 <span class="visually-hidden" aria-label="checkbox" >Чекбокс</span>
@@ -73,12 +71,12 @@
             </span>
             <span class="little">Гостиница</span>
           </label>
-          <label class="check option">
+          <label class="check option motel">
             <input class="check-input" type="checkbox" checked>
             <span class="check-box">
                 <span class="visually-hidden" aria-label="checkbox" >Чекбокс</span>
             </span>
-            <span class="little">Мотель</span>
+            <span class="little ">Мотель</span>
           </label>
           <label class="check option">
             <input class="check-input" type="checkbox" checked>
@@ -108,16 +106,15 @@
             <div class="range-toggle range-toggle-max"></div>
           </div>
           <button class="btn-transparent" type="submit">Показать</button>
-
         </form>
       </div>
     </section>
     <section class="filter-hotels">
       <span class="found">Найдено: 3</span>
+      <h3 class="sort-item1">Сортировка</h3>
       <ul class="sort">
-        <li class="sort-item1">Сортировка</li>
         <li class="sort-item">
-          <a href="#" class="sort-item2">по цене</a>
+          <a href="#" class="sort-item2 item2-active">по цене</a>
         </li>
         <li class="sort-item">
           <a href="#" class="sort-item2">по типу</a>
@@ -127,12 +124,12 @@
         </li>
       </ul>
       <div class="delta">
-        <a href="#" class="delta-left">
+        <a href="#" class="delta-left"><span class="visually-hidden">Сортировка по возрастанию</span>
           <svg version="1.1" id="delta1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="11px" height="10px" viewBox="0 0 11 10" enable-background="new 0 0 11 10" xml:space="preserve">
             <polygon points="5.5,0 0,10 11,10 " />
           </svg>
         </a>
-        <a href="#" class="delta-right">
+        <a href="#" class="delta-right delta-active"><span class="visually-hidden">Сортировка по убыванию</span>
           <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="11px" height="10px" viewBox="0 0 11 10" enable-background="new 0 0 11 10" xml:space="preserve">
             <polyline points="5.5,10 0,0 11,0 " />
           </svg>
@@ -144,13 +141,13 @@
       <ul class="catalog-list">
         <li class="catalog-item">
           <div class="catalog-item-image">
-            <img src="img/layer-21.jpg" alt="AMARA RESORT & SPA">
+            <img src="img/layer-21.jpg" width="135" height="90" alt="AMARA RESORT & SPA">
           </div>
           <section class="middle">
             <div>
               <h3 class="caption">
-        <a href="catalog-amara.html">AMARA RESORT & SPA</a>
-            </h3>
+                <a href="catalog-amara.html">AMARA RESORT & SPA</a>
+              </h3>
               <div class="text-container">
                 <p class="catalog-item-type">Гостиница</p>
                 <p class="catalog-item-price">от 4000 р.</p>
@@ -160,10 +157,10 @@
             </div>
             <div class="right">
               <div class="catalog-item-star">
-                <img class="star" src="img/invalid-name.svg" alt="Рейтинг:8,5">
-                <img class="star" src="img/invalid-name.svg" alt="">
-                <img class="star" src="img/invalid-name.svg" alt="">
-                <img class="star" src="img/invalid-name.svg" alt="">
+                <img class="star" src="img/invalid-name.svg" width="23" height="17" alt="*">
+                <img class="star" src="img/invalid-name.svg" width="23" height="17" alt="*">
+                <img class="star" src="img/invalid-name.svg" width="23" height="17" alt="*">
+                <img class="star" src="img/invalid-name.svg" width="23" height="17" alt="четвертая звезда*">
               </div>
               <p class="catalog-item-rating">Рейтинг: 8,5</p>
             </div>
@@ -171,14 +168,13 @@
         </li>
         <li class="catalog-item2">
           <div class="catalog-item-image">
-            <img src="img/layer-89-copy.jpg" alt="DESERT QUAIL INN">
-
+            <img src="img/layer-89-copy.jpg" width="135" height="90" alt="DESERT QUAIL INN">
           </div>
           <section class="middle">
             <div>
               <h3 class="caption">
-            <a href="catalog-quail.html">DESERT QUAIL INN   </a>
-            </h3>
+                <a href="catalog-quail.html">DESERT QUAIL INN</a>
+              </h3>
               <div class="text-container">
                 <p class="catalog-item-type2">Мотель</p>
                 <p class="catalog-item-price">от 3000 р.</p>
@@ -188,9 +184,9 @@
             </div>
             <div class="right">
               <div class="catalog-item-star">
-                <img class="star" src="img/invalid-name.svg" alt="Рейтинг:8,9">
-                <img class="star" src="img/invalid-name.svg" alt="">
-                <img class="star" src="img/invalid-name.svg" alt="">
+                <img class="star" src="img/invalid-name.svg" alt="*">
+                <img class="star" src="img/invalid-name.svg" alt="*">
+                <img class="star" src="img/invalid-name.svg" alt="третья *">
               </div>
               <p class="catalog-item-rating">Рейтинг: 8,9</p>
             </div>
@@ -198,15 +194,13 @@
         </li>
         <li class="catalog-item">
           <div class="catalog-item-image">
-
-            <img src="img/layer-22.jpg" alt="VILLAS AT POCO DIABLO">
-
+            <img src="img/layer-22.jpg" width="135" height="90" alt="VILLAS AT POCO DIABLO">
           </div>
           <section class="middle">
             <div>
               <h3 class="caption">
-       <a href="catalog-quail.html">VILLAS AT POCO DIABLO</a>
-            </h3>
+                <a href="catalog-quail.html">VILLAS AT POCO DIABLO</a>
+              </h3>
               <div class="text-container">
                 <p class="catalog-item-type3">апартаменты</p>
                 <p class="catalog-item-price">от 2000 р.</p>
@@ -216,8 +210,8 @@
             </div>
             <div class="right">
               <div class="catalog-item-star">
-                <img class="star" src="img/invalid-name.svg" alt="Рейтинг:9,2">
-                <img class="star" src="img/invalid-name.svg" alt="">
+                <img class="star" src="img/invalid-name.svg" alt="*">
+                <img class="star" src="img/invalid-name.svg" alt="*">
               </div>
               <p class="catalog-item-rating">Рейтинг: 9.2</p>
             </div>
