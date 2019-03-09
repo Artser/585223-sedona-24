@@ -433,10 +433,12 @@ input[type="radio"].visually-hidden {
 }
 .map-img {
   background-image: url(../img/main-map.png);
-  margin: 0;
+    background-image: url(https://i.ibb.co/CV966YR/main-map.png);
+    margin: 0;
   max-width: 1200px;
-  height: 593px;
+/*  height: 593px;*/
 }
+
 .main-footer {
   position: relative;
   margin-right: 112px;
@@ -546,6 +548,7 @@ input[type="radio"].visually-hidden {
   background-color: rgb(255, 255, 255);
   padding-top: 50px;
 }
+
 .middle2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -897,6 +900,8 @@ reason-title {
   width: 100%;
   height: 470px;
   text-align: center;
+    overflow: hidden;
+    position: relative;
 }
 .hotels-filters {
   background-image: url(../img/form-bg.jpg);
@@ -1250,7 +1255,7 @@ reason-title {
   padding-left: 5px;
 }
 .search-form {
-  position: absolute;
+/*  position: absolute;*/
   padding: 55px;
   top: 100%;
   left: 0;
@@ -1260,6 +1265,7 @@ reason-title {
   box-shadow: 0 7px 15px rgba(0, 1, 1, .15);
   z-index: 1
 }
+
 .search-form-row {
   display: -webkit-box;
   display: -ms-flexbox;
