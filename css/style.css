@@ -287,7 +287,7 @@ input[type="radio"].visually-hidden {
 .book {
   background-color: rgb(118, 99, 87);
   padding: 1px 18px;
-  padding-right: 16px;
+  padding-right: 14px;
 }
 .book:hover {
   background-color: rgb(96, 78, 67);
@@ -314,7 +314,6 @@ input[type="radio"].visually-hidden {
 }
 .reason {
   margin: 0 auto;
-  /*  line-height: 26px;*/
   color: rgb(51, 51, 51);
   text-align: center;
   background-color: rgb(255, 255, 255);
@@ -322,7 +321,6 @@ input[type="radio"].visually-hidden {
 }
 .reason-title {
   font-size: 21px;
-  /*  line-height: 26px;*/
   font-weight: bold;
   color: rgb(0, 0, 0);
   margin: 0 auto;
@@ -335,6 +333,11 @@ input[type="radio"].visually-hidden {
 }
 .food-text {
   padding-top: 3px;
+  margin-top: -5px;
+}
+.food-title {
+  padding-top: 3px;
+  margin-bottom: 18px;
 }
 .reason p {
   padding-top: 13px;
@@ -411,6 +414,19 @@ input[type="radio"].visually-hidden {
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
+.right2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-top: 4px;
+}
 .catalog-item-star {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -433,12 +449,10 @@ input[type="radio"].visually-hidden {
 }
 .map-img {
   background-image: url(../img/main-map.png);
-    background-image: url(https://i.ibb.co/CV966YR/main-map.png);
-    margin: 0;
+  margin: 0;
   max-width: 1200px;
-/*  height: 593px;*/
+  height: 593px;
 }
-
 .main-footer {
   position: relative;
   margin-right: 112px;
@@ -488,9 +502,6 @@ input[type="radio"].visually-hidden {
   list-style: none;
   margin: 0 auto;
   padding: 0;
-  /*-webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;*/
   margin-right: 230px;
 }
 .footer-social:hover {
@@ -521,8 +532,6 @@ input[type="radio"].visually-hidden {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  /*  width: 46px;
-  height: 48px;*/
   background-color: #81b3d2;
 }
 .motel {
@@ -539,6 +548,8 @@ input[type="radio"].visually-hidden {
   font-weight: 400;
   line-height: 26px;
   text-align: center;
+  padding-bottom: 3px;
+  padding-left: 2px;
 }
 .copyright-active {
   padding-top: 11px;
@@ -548,7 +559,6 @@ input[type="radio"].visually-hidden {
   background-color: rgb(255, 255, 255);
   padding-top: 50px;
 }
-
 .middle2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -616,7 +626,7 @@ reason-title {
   font-weight: 700;
   line-height: 21px;
   text-align: center;
-  padding-bottom: 4px;
+  padding-bottom: 6px;
 }
 .properties-text {
   font-size: 14px;
@@ -760,6 +770,12 @@ reason-title {
   margin-bottom: 47px;
   line-height: 1.8;
   color: rgb(51, 51, 51);
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
 }
 .btn-search-hotel {
   display: inline-block;
@@ -898,10 +914,13 @@ reason-title {
 }
 .map {
   width: 100%;
-  height: 470px;
+  height: 593px;
   text-align: center;
-    overflow: hidden;
-    position: relative;
+  overflow: hidden;
+  position: relative;
+}
+.footer-index {
+  margin-top: -120px;
 }
 .hotels-filters {
   background-image: url(../img/form-bg.jpg);
@@ -914,6 +933,7 @@ reason-title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 3px;
 }
 .bigcheck {
   display: -webkit-box;
@@ -1054,7 +1074,7 @@ reason-title {
 }
 .check {
   padding-left: 1.3em;
-  padding-bottom: 15px;
+  padding-bottom: 14px;
 }
 .check-input {
   position: absolute;
@@ -1065,7 +1085,6 @@ reason-title {
 }
 .check-box {
   position: absolute;
-  /*  margin-top: 0.2em;*/
   margin-left: -40px;
   width: 30px;
   height: 25px;
@@ -1255,7 +1274,6 @@ reason-title {
   padding-left: 5px;
 }
 .search-form {
-/*  position: absolute;*/
   padding: 55px;
   top: 100%;
   left: 0;
@@ -1265,7 +1283,6 @@ reason-title {
   box-shadow: 0 7px 15px rgba(0, 1, 1, .15);
   z-index: 1
 }
-
 .search-form-row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1298,7 +1315,7 @@ reason-title {
 .search-form-column--2 .search-form-label {
   text-align: right;
   padding-right: 26px;
-  padding-left: 26px
+  padding-left: 26px;
 }
 .search-form-label {
   display: block;
@@ -1308,7 +1325,29 @@ reason-title {
   padding: 6px 15px 6px 0;
   line-height: 26px;
   font-weight: 700;
-  color: #000
+  color: #000;
+  margin-left: -2px;
+}
+.search-form-label2 {
+  display: block;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 112px;
+  padding: 6px 45px 6px 0;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000;
+}
+.search-form-label3 {
+  display: block;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 112px;
+  padding: 6px 0px 6px 0;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000;
+  margin-right: -9px;
 }
 .search-form-input-wrapper {
   position: relative;
@@ -1362,7 +1401,8 @@ reason-title {
   color: #000
 }
 .search-form-input-wrapper--calendar .search-form-input {
-  padding-right: 45px
+  padding-right: 45px;
+  padding-left: 13px;
 }
 .search-form-calendar-btn {
   position: absolute;
@@ -1482,8 +1522,8 @@ reason-title {
 .btn.btn--medium {
   font-size: 21px;
   line-height: 26px;
-  padding: 30px 50px
+  padding: 30px 50px;
 }
 .btn.btn--medium {
-  padding: 16px 48px
+  padding: 16px 48px;
 }
