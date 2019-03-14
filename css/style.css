@@ -1093,8 +1093,6 @@ reason-title {
   background-repeat: no-repeat;
   background-image: url(../img/checkbox-off.svg);
 }
-/* Checked */
-
 .check-input:checked + .check-box {
   background-image: url(../img/checkbox-on.svg);
   color: white;
@@ -1106,9 +1104,7 @@ reason-title {
   background-image: url(../img/checkbox-on2.svg);
 }
 .check-input:focus + .check-box {
-  /*  border-right: 2px solid rgb(0, 0, 0);*/
-/*box-shadow:         1px -3px 17px 0px rgba(255, 255, 255, 0.75);*/
-    box-shadow:0px 1px 16px 10px rgba(250,204,183,0.79);
+  border-right: 2px solid rgb(0, 0, 0);
 }
 .little {
   font-weight: normal;
@@ -1276,7 +1272,6 @@ reason-title {
 }
 .by {
   margin-right: 5px;
-  /*  padding-top: 1px;*/
 }
 .star {
   padding-left: 5px;
